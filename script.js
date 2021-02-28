@@ -20,7 +20,7 @@ const postData = (url, data) => {
 };
 
 const getData = () => {
-  fetch('https://sheet.best/api/sheets/3a76ac88-73e6-4f6e-8fe9-549db06ff2f9')
+  fetch('https://sheet.best/api/sheets/159e9cac-caa4-467d-928f-45c185ef0ade')
     .then(function (response) {
       return response.json();
     })
@@ -61,7 +61,7 @@ form.addEventListener('submit', (e) => {
   };
 
   postData(
-    'https://sheet.best/api/sheets/3a76ac88-73e6-4f6e-8fe9-549db06ff2f9',
+    'https://sheet.best/api/sheets/159e9cac-caa4-467d-928f-45c185ef0ade',
     data
   );
 

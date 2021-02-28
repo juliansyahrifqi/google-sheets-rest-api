@@ -20,6 +20,12 @@
             width: 120px;
         }
 
+        table {
+            margin: 0 auto;
+            width: 60%;
+            text-align: center;
+        }
+
      
     </style>
 </head>
@@ -46,6 +52,8 @@
         <input type="submit" value="Submit" id="submit">   
     </form>
 
+  
+
     <h1> Google Sheet Data</h1>
 
     <table border="1px">
@@ -60,8 +68,8 @@
         <tbody class="tabel-data" id="tabel-data"></tbody>
     </table>
 
+    
     <script src="script.js"></script>
-
     <script>
         document.addEventListener("DOMContentLoaded", function() {
             getData();
